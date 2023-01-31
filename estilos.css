@@ -11,6 +11,11 @@
     grid-template-columns: auto auto auto auto auto;
 }
 
+.hobbies-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
 h2 {
     font-family: 'Roboto', sans-serif;
     color: #ff6400;
@@ -21,8 +26,8 @@ p {
 }
 
 .profile-image {    
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     border-radius: 20%;
     top: 80px;
