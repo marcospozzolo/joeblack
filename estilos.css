@@ -20,14 +20,22 @@ p {
     color: rgb(43, 42, 42);
 }
 
-.profile-image {
+.profile-image {    
     width: 100px;
     height: 100px;
+    text-align: center;
     border-radius: 20%;
+    top: 80px;
+    position: relative;
 }
 
 .image-container {
     max-width: 800px;
+    height: 250px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url("./images/fondo.jpg");
+    background-position: center;
+    background-size: 800px 300px;
+    text-align: center;
 }
