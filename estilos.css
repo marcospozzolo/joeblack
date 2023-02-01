@@ -1,3 +1,8 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(63, 62, 62);
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -12,17 +17,11 @@
 }
 
 .hobbies-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: none;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
     color: #ff6400;
-}
-p {
-    font-family: 'Roboto', sans-serif;
-    color: rgb(43, 42, 42);
 }
 
 .profile-image {    
